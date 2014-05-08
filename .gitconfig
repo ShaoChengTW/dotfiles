@@ -1,0 +1,14 @@
+[alias]
+    br = branch
+	st = status
+	co = checkout
+	cp = cherry-pick
+[color]
+	ui = true
+[credential]
+	helper = osxkeychain
+[user]
+	name = mistasy
+	email = jacob.shcheng@gmail.com
+[core]
+	autocrlf = input
