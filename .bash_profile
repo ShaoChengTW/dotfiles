@@ -1,5 +1,5 @@
-export DOTFILES=/Users/mistasy/Projects/dotfiles
-export AND_HOME=/Applications/adt-bundle-mac-x86_64-20140321/sdk
+export DOTFILES=$HOME/Projects/Dotfiles
+export AND_HOME=$HOME/Tools/sdk
 export PATH=/usr/local/bin:${PATH}:${AND_HOME}/platform-tools:${AND_HOME}/tools
 
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
