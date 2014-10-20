@@ -1,4 +1,5 @@
 syntax on 
+color zenburn
 
 set number
 set hlsearch
