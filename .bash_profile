@@ -6,6 +6,10 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 	. $(brew --prefix)/etc/bash_completion
 fi
 
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
+
 if [ -f $DOTFILES/.bashrc ]; then
     source $DOTFILES/.bashrc
 fi
+
