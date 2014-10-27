@@ -1,6 +1,6 @@
 export DOTFILES=$HOME/Projects/Dotfiles
-export AND_HOME=$HOME/Tools/sdk
-export PATH=/usr/local/bin:${PATH}:${AND_HOME}/platform-tools:${AND_HOME}/tools
+export ANDROID_HOME=$HOME/Tools/android_sdk
+export PATH=/usr/local/bin:${PATH}:${ANDROID_HOME}/platform-tools:${ANDROID_HOME}/tools
 
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
 	. $(brew --prefix)/etc/bash_completion
