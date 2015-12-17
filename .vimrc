@@ -9,3 +9,9 @@ set backspace=indent,eol,start
 set tabstop=4
 set shiftwidth=4
 set expandtab
+
+let g:netrw_liststyle=3
+
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+execute pathogen#infect()
+filetype plugin indent on
