@@ -14,4 +14,6 @@ let g:netrw_liststyle=3
 
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
+filetype off
+syntax on
 filetype plugin indent on
