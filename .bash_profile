@@ -1,4 +1,10 @@
-export DOTFILES=$HOME/Projects/Dotfiles
+export DOTFILES=$HOME/.dotfiles
+
+# For individual configs
+if [ -f "$HOME/.bash_local" ]; then
+    source $HOME/.bash_local
+fi
+
 export ANDROID_HOME=/usr/local/opt/android-sdk
 export PATH=$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH
 
@@ -15,6 +21,7 @@ export GRADLE_OPTS="-XX:MaxPermSize=1024m"
 if [ -f $DOTFILES/.bashrc ]; then
     source $DOTFILES/.bashrc
 fi
+
 
 export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)
 
