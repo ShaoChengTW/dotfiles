@@ -22,9 +22,6 @@ if [ -f $DOTFILES/.bashrc ]; then
     source $DOTFILES/.bashrc
 fi
 
-
-export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)
-
 export GOPATH=$HOME/golang
 
 if [ -d "/usr/local/share/gradle" ]; then
