@@ -9,8 +9,8 @@
 [credential]
 	helper = osxkeychain
 [user]
-	name = 
-	email = 
+	name = Shaohsuan Cheng
+	email = shaohsuan.cheng.tw@gmail.com
 [core]
 	autocrlf = input
 	excludesfile = /Users/shaocheng/.gitignore_global
