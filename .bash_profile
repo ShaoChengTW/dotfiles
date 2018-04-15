@@ -15,9 +15,6 @@ fi
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
-export JAVA_OPTS="-XX:MaxPermSize=1024m -Xms1024m -Xmx2048m"
-export GRADLE_OPTS="-XX:MaxPermSize=1024m"
-
 if [ -f $DOTFILES/.bashrc ]; then
     source $DOTFILES/.bashrc
 fi
