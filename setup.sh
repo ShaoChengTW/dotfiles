@@ -2,7 +2,7 @@
 
 CUR_PATH=$(pwd)
 
-declare -a arr=(".vim" ".vimrc" ".gvimrc" ".gitconfig")
+declare -a arr=(".vim" ".vimrc" ".gvimrc")
 
 for i in "${arr[@]}"
 do
