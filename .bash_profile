@@ -4,7 +4,7 @@ if [ -f $DOTFILES/.bashrc ]; then
     source $DOTFILES/.bashrc
 fi
 
-if [ -f "/usr/local/opt/android-sdk" ]; then
+if [ -d "/usr/local/opt/android-sdk" ]; then
     export ANDROID_HOME=/usr/local/opt/android-sdk
     export PATH=$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:$PATH
 fi
