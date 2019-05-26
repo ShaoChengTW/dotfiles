@@ -13,6 +13,7 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 	. $(brew --prefix)/etc/bash_completion
 fi
 
+
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
@@ -20,4 +21,7 @@ export LSCOLORS=GxFxCxDxBxegedabagaced
 if [ -f "$HOME/.bash_local" ]; then
     source $HOME/.bash_local
 fi
+
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+export PATH="$HOME/.fastlane/bin:$PATH"
 
