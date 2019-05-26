@@ -26,3 +26,5 @@ export LSCOLORS=GxFxCxDxBxegedabagaced
 export PATH="/usr/local/opt/ruby/bin:$PATH"
 export PATH="$HOME/.fastlane/bin:$PATH"
 
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+
