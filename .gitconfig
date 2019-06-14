@@ -9,4 +9,4 @@
 	st = status
 	br = branch
 	cp = cherry-pick
-	tree = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+    tree = log --graph --decorate --pretty=oneline --abbrev-commit
