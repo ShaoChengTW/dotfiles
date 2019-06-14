@@ -24,7 +24,13 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 	. $(brew --prefix)/etc/bash_completion
 fi
 
+
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
+
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+export PATH="$HOME/.fastlane/bin:$PATH"
+
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 
