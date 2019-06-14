@@ -14,6 +14,12 @@ if [ -d "$ANDROID_HOME" ]; then
     export PATH=$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:$PATH
 fi
 
+export BREW_RUBY=/usr/local/opt/ruby/bin
+
+if [ -d "$BREW_RUBY" ]; then
+    export PATH=$BREW_RUBY:$PATH
+fi
+
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
 	. $(brew --prefix)/etc/bash_completion
 fi
