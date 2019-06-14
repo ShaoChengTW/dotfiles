@@ -1,0 +1,12 @@
+[user]
+	name = Shaohsuan Cheng
+	email = shaohsuan.cheng.tw@gmail.com
+[core]
+	excludesfile = /Users/shaoc/.gitignore_global
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	cp = cherry-pick
+	tree = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
