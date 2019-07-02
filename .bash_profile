@@ -24,6 +24,11 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 	. $(brew --prefix)/etc/bash_completion
 fi
 
+export GOOGLE_CLOUD_PATH=/usr/local/Caskroom/google-cloud-sdk/latest
+if [ -d "$GOOGLE_CLOUD_PATH" ]; then
+    source $GOOGLE_CLOUD_PATH/google-cloud-sdk/path.bash.inc
+    source $GOOGLE_CLOUD_PATH/google-cloud-sdk/completion.bash.inc
+fi
 
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
