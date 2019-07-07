@@ -106,5 +106,3 @@ autoload -U promptinit; promptinit
 prompt pure
 
 set -o vi
-
-source ~/.bash_profile
