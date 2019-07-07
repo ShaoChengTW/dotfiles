@@ -5,11 +5,6 @@ if [ -f $DOTFILES/.bashrc ]; then
     source $DOTFILES/.bashrc
 fi
 
-# For individual configs
-if [ -f "$HOME/.bash_local" ]; then
-    source $HOME/.bash_local
-fi
-
 export BREW_RUBY=/usr/local/opt/ruby/bin
 
 if [ -d "$BREW_RUBY" ]; then
