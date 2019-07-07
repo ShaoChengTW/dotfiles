@@ -10,10 +10,6 @@ if [ -f "$HOME/.bash_local" ]; then
     source $HOME/.bash_local
 fi
 
-if [ -d "$ANDROID_HOME" ]; then
-    export PATH=$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:$PATH
-fi
-
 export BREW_RUBY=/usr/local/opt/ruby/bin
 
 if [ -d "$BREW_RUBY" ]; then

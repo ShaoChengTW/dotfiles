@@ -1,1 +1,1 @@
-/Users/mistasy/projects/dotfiles/.vim
+/Users/shaoc/projects/dotfiles/.vim
