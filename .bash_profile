@@ -1,3 +1,5 @@
+source $HOME/.sh_profile
+
 export DOTFILES=$HOME/.dotfiles
 
 # For common configs
