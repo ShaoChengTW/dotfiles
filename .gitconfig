@@ -5,8 +5,10 @@
 	excludesfile = /Users/shaoc/.gitignore_global
 [alias]
 	co = checkout
-	ci = commit
+	cm = commit
 	st = status
 	br = branch
 	cp = cherry-pick
     tree = log --graph --decorate --pretty=oneline --abbrev-commit
+[pager]
+	branch = false
