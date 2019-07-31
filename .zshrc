@@ -104,6 +104,8 @@ source $ZSH/oh-my-zsh.sh
 #
 
 # pure
+fpath=("$HOME/.zfunctions" $fpath)
+
 autoload -U promptinit; promptinit
 prompt pure
 
