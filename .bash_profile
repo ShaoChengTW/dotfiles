@@ -13,8 +13,9 @@ if [ -d "$BREW_RUBY" ]; then
     export PATH=$BREW_RUBY:$PATH
 fi
 
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-	. $(brew --prefix)/etc/bash_completion
+export BASH_COMPLETION_SH=$(brew --prefix)/etc/profile.d/bash_completion.sh
+if [ -f $BASH_COMPLETION_SH ]; then
+	source $BASH_COMPLETION_SH
 fi
 
 export GOOGLE_CLOUD_PATH=/usr/local/Caskroom/google-cloud-sdk/latest
