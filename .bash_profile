@@ -7,11 +7,6 @@ if [ -f $DOTFILES/.bashrc ]; then
     source $DOTFILES/.bashrc
 fi
 
-export BREW_RUBY=/usr/local/opt/ruby/bin
-
-if [ -d "$BREW_RUBY" ]; then
-    export PATH=$BREW_RUBY:$PATH
-fi
 
 export BASH_COMPLETION_SH=$(brew --prefix)/etc/profile.d/bash_completion.sh
 if [ -f $BASH_COMPLETION_SH ]; then
