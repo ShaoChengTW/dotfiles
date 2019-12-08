@@ -103,17 +103,13 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 
-# pure
-fpath=("$HOME/.zfunctions" $fpath)
-
-autoload -U promptinit; promptinit
-prompt pure
-
-set -o vi
-
 # Google Cloud 
 export GOOGLE_CLOUD_PATH=/usr/local/Caskroom/google-cloud-sdk/latest
 if [ -d "$GOOGLE_CLOUD_PATH" ]; then
     source $GOOGLE_CLOUD_PATH/google-cloud-sdk/path.zsh.inc
     source $GOOGLE_CLOUD_PATH/google-cloud-sdk/completion.zsh.inc
 fi
+
+# Starship https://github.com/starship/starship
+eval "$(starship init zsh)"
+
