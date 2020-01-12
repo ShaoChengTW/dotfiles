@@ -1,0 +1,3 @@
+$PATH.append('/usr/local/bin')
+
+$PROMPT='\n{BOLD_BLUE}{cwd}{NO_COLOR} {branch_color}{gitstatus}{NO_COLOR} \n{BOLD_BLUE}❯ {NO_COLOR}'

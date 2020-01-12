@@ -1,8 +1,8 @@
-#/bin/bash
+#!/usr/bin/env bash
 
 CUR_PATH=$(pwd)
 
-declare -a arr=(".sh_profile" ".bash_profile" ".bashrc" ".zshrc" ".vim" ".vimrc" ".gvimrc" ".gitconfig")
+declare -a arr=(".sh_profile" ".bash_profile" ".bashrc" ".zshrc" ".vim" ".vimrc" ".gvimrc" ".gitconfig" ".zonshrc")
 
 for i in "${arr[@]}"
 do
