@@ -1,5 +1,5 @@
 " Font
-set guifont=FiraCode-Retina:h14
+set guifont=MenloForPowerline-Regular:h16
 set macligatures
 " Better line-height
 set linespace=4

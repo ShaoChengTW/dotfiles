@@ -2,7 +2,7 @@
 
 CUR_PATH=$(pwd)
 
-declare -a arr=(".sh_profile" ".bash_profile" ".bashrc" ".zshrc" ".vim" ".vimrc" ".gvimrc" ".gitconfig" ".zonshrc")
+declare -a arr=(".sh_profile" ".bash_profile" ".bashrc" ".zshrc" ".vimrc" ".gvimrc" ".gitconfig" ".zonshrc")
 
 for i in "${arr[@]}"
 do
