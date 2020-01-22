@@ -1,3 +1,5 @@
-$PATH.append('/usr/local/bin')
+$PATH.insert(0, '/usr/local/bin')
 
 $PROMPT='\n{BOLD_BLUE}{cwd}{NO_COLOR} {branch_color}{gitstatus}{NO_COLOR} \n{BOLD_BLUE}❯ {NO_COLOR}'
+
+$HOMEBREW_GITHUB_API_TOKEN = '14fe455d0bde7a8e1bd9128b86f06837582fb71e'
