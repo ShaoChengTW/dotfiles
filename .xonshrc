@@ -5,5 +5,5 @@ $PROMPT='\n{BOLD_BLUE}{cwd}{NO_COLOR} {branch_color}{gitstatus}{NO_COLOR} \n{BOL
 with open($HOME + '/.env') as f:
     for line in f.read().splitlines():
         if line:
-            var = line.replace('export ', '').split('=')
+            var = line.split('=')
             ${...}[var[0]] = var[1]
