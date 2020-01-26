@@ -1,5 +1,8 @@
 $PATH.insert(0, '/usr/local/bin')
 
+# Ruby
+$PATH = ['/usr/local/opt/ruby/bin', '/usr/local/lib/ruby/gems/2.6.0/bin'] + $PATH
+
 $PROMPT='\n{BOLD_BLUE}{cwd}{NO_COLOR} {branch_color}{gitstatus}{NO_COLOR} \n{BOLD_BLUE}❯ {NO_COLOR}'
 
 with open($HOME + '/.env') as f:
