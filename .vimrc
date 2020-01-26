@@ -22,3 +22,7 @@ python3 del powerline_setup
 
 set background=dark
 colorscheme PaperColor
+
+" XONSH
+autocmd BufNewFile,BufRead *.xonshrc set syntax=python
+
