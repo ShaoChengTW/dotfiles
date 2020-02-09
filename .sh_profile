@@ -24,4 +24,6 @@ if [[ -d "$HOME/.fastlane" ]]; then
     export PATH="$HOME/.fastlane/bin:$PATH"
 fi
 
+export LC_ALL=en_US.UTF-8
+
 set -o vi
