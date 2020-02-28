@@ -14,7 +14,7 @@ fi
 
 # Ruby
 RUBY_HOME=/usr/local/opt/ruby
-GEM_PATH=/usr/local/lib/ruby/gems/2.6.0
+GEM_PATH=/usr/local/lib/ruby/gems/2.7.0
 if [[ -d "$RUBY_HOME" ]]; then
     export PATH="$RUBY_HOME/bin:$GEM_PATH/bin:$PATH"
 fi
