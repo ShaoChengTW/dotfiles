@@ -1,3 +1,5 @@
+import os.path
+
 $PATH.insert(0, '/usr/local/bin')
 
 # Ruby
@@ -5,8 +7,10 @@ $PATH = ['/usr/local/opt/ruby/bin', '/usr/local/lib/ruby/gems/2.7.0/bin'] + $PAT
 
 $PROMPT='\n{BOLD_BLUE}{cwd}{NO_COLOR} {branch_color}{gitstatus}{NO_COLOR} \n{BOLD_BLUE}❯ {NO_COLOR}'
 
-with open($HOME + '/.env') as f:
-    for line in f.read().splitlines():
-        if line:
-            var = line.split('=')
-            ${...}[var[0]] = var[1]
+envPath = os.path.join($HOME, '.env')
+if os.path.isfile(envPath):
+    with open(envPath) as f:
+        for line in f.read().splitlines():
+            if line:
+                var = line.split('=')
+                ${...}[var[0]] = var[1]
