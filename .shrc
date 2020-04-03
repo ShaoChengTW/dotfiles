@@ -1,9 +1,11 @@
 #!/bin/sh
 
 # https://www.gnu.org/software/bash/manual/html_node/The-Set-Builtin.html
-set -a
-source $HOME/.env
-set +a
+if [[ -d "$HOME/.env" ]]; then
+    set -a
+    source $HOME/.env
+    set +a
+fi
 
 if [[ -d "$ANDROID_HOME" ]]; then
     export PATH=$PATH:$ANDROID_HOME/emulator
