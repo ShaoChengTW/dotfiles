@@ -5,5 +5,12 @@ Usage
 
 # Prerequisite
 
+## Shell
 - Starship: https://github.com/starship/starship
+
+## Zsh
+- https://github.com/ohmyzsh/ohmyzsh
+- https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
+
+## Vim
 - Papercolor: https://github.com/NLKNguyen/papercolor-theme
