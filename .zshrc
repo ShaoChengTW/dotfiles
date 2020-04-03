@@ -1,4 +1,6 @@
-source $HOME/.sh_profile
+if [ -f $HOME/.shrc ]; then
+    source $HOME/.shrc
+fi
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
