@@ -3,6 +3,7 @@
 	email = shaohsuan.cheng.tw@gmail.com
 [core]
 	excludesfile = /Users/shaoc/.gitignore_global
+	editor = vim
 [alias]
 	co = checkout
 	cm = commit
