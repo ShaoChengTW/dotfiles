@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # https://www.gnu.org/software/bash/manual/html_node/The-Set-Builtin.html
-if [[ -d "$HOME/.env" ]]; then
+if [[ -f "$HOME/.env" ]]; then
     set -a
     source $HOME/.env
     set +a
