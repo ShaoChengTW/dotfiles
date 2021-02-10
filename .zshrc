@@ -77,6 +77,7 @@ plugins=(
     bundler
     colored-man-pages
     common-aliases
+    docker-compose
     git
     npm
     vi-mode
