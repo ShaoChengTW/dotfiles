@@ -77,6 +77,7 @@ plugins=(
     bundler
     colored-man-pages
     common-aliases
+    docker
     docker-compose
     git
     npm
