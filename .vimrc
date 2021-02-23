@@ -13,8 +13,13 @@ filetype off
 syntax on
 filetype plugin indent on
 
-set background=dark
 colorscheme PaperColor
+" dark mode enabled?
+if system("defaults read -g AppleInterfaceStyle") =~ '^Dark'
+  set background=dark
+else
+  set background=light
+endif
 
 " XONSH
 autocmd BufNewFile,BufRead *.xonshrc set syntax=python

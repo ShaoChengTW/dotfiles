@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 
 # https://www.gnu.org/software/bash/manual/html_node/The-Set-Builtin.html
 if [[ -f "$HOME/.env" ]]; then
@@ -22,6 +22,11 @@ fi
 # Fastlane
 if [[ -d "$HOME/.fastlane" ]]; then
     export PATH="$HOME/.fastlane/bin:$PATH"
+fi
+
+# Node
+if [[ -d "$NODE_HOME" ]]; then
+    export PATH="$NODE_HOME/bin:$PATH"
 fi
 
 export LC_ALL=en_US.UTF-8

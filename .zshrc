@@ -1,4 +1,4 @@
-if [ -f $HOME/.shrc ]; then
+if [[ -f "$HOME/.shrc" ]]; then
     source $HOME/.shrc
 fi
 
