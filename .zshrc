@@ -125,5 +125,3 @@ fi
 # Starship https://github.com/starship/starship
 eval "$(starship init zsh)"
 
-# The Fuck https://github.com/nvbn/thefuck
-eval $(thefuck --alias)
