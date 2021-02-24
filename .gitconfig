@@ -4,6 +4,7 @@
 [core]
 	excludesfile = /Users/shaoc/.gitignore_global
 	editor = vim
+	pager = cat
 [alias]
     tree = log --graph --decorate --pretty=oneline --abbrev-commit
 [pager]
